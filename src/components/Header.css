@@ -1,0 +1,15 @@
+header{
+    background: #9BC9F5;
+    height: 7vh;
+    display: flex;
+    width: 100vw;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin: 13px 20px;
+}
+a:hover{
+    text-decoration: underline;
+}

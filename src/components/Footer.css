@@ -1,0 +1,9 @@
+body{
+    overflow: hidden;
+}
+footer{
+    text-align: center;
+    background: #424242;
+    height: 12vh;
+    padding-top: 15px;
+}

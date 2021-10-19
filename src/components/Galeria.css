@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro{
+    text-align: center;
+    background: #424242;
+    margin-bottom: -10px;
+}
+
+.intro h1, p{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.intro h1{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 67vh;
+    background: rgb(0, 0, 0);
+}
+
+.showInfos{
+    width: 25vw;
+    background: #424242;
+    height: 60vh;
+    margin: 5px;
+}
+
+.container img{
+    width: 25vw;
+}
+
+.showInfos h2, p{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
