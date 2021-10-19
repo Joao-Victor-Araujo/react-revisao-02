@@ -5,27 +5,27 @@ import Footer from "./Footer";
 
 let Galeria = () => {
     return(
-        <main>
+        <main data-testid="main-tag">
           <Header />
-          <div className='intro'>
+          <div data-testid="my-div" className='intro'>
               <h1>Galeria de imagens</h1>
               <p>Aqui você encontra as imagens mais diversas <br /> Alguns Bionas:</p>
           </div>
-            <div className="container">
+            <div data-testid="my-div" className="container">
 
-                <div className="showInfos">
+                <div data-testid="my-div" className="showInfos">
                     <img src={itens.img.amazonia} alt=""/>
                         <h2>Amazonia</h2>
                         <p>{itens.text.amazoniaText}</p>
                 </div>
 
-                <div className="showInfos">
+                <div data-testid="my-div" className="showInfos">
                     <img src={itens.img.pantanal} alt=""/>
                         <h2>Pantanal</h2>
                         <p>{itens.text.pantanalText}</p>
                 </div>
 
-                <div className="showInfos">
+                <div data-testid="my-div" className="showInfos">
                     <img src={itens.img.caatinga} alt=""/>
                         <h2>Caatinga</h2>
                         <p>{itens.text.caatinga}</p>

@@ -3,7 +3,7 @@ import './Header.css'
 
 export default function Header(){
     return(
-        <header>
+        <header data-testid="header">
             <a href="#">Home</a>
             <a href="#">Perfil</a>
         </header>
